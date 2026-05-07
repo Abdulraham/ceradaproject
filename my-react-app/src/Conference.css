@@ -1,0 +1,275 @@
+/* =========================
+   CONFERENCE PAGE
+========================= */
+
+.conferencePage{
+
+  padding:110px 8%;
+
+  background:
+  linear-gradient(
+    135deg,
+    #071c3d,
+    #0f172a
+  );
+
+  color:white;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.conferenceHeader{
+
+  text-align:center;
+
+  max-width:950px;
+
+  margin:auto auto 80px;
+}
+
+.conferenceTag{
+
+  display:inline-block;
+
+  padding:10px 24px;
+
+  border-radius:40px;
+
+  background:
+  rgba(255,255,255,0.08);
+
+  border:
+  1px solid rgba(255,255,255,0.08);
+
+  margin-bottom:25px;
+
+  font-size:13px;
+
+  letter-spacing:1px;
+}
+
+.conferenceHeader h1{
+
+  font-size:58px;
+
+  line-height:1.3;
+
+  margin-bottom:25px;
+
+  font-weight:800;
+}
+
+.conferenceHeader h1 span{
+  color:#ffd166;
+}
+
+.conferenceHeader p{
+
+  color:#dbeafe;
+
+  line-height:2;
+
+  font-size:17px;
+}
+
+/* =========================
+   GRID
+========================= */
+
+.conferenceGrid{
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(260px,1fr));
+
+  gap:30px;
+
+  margin-bottom:90px;
+}
+
+/* =========================
+   CARD
+========================= */
+
+.conferenceCard{
+
+  background:
+  rgba(255,255,255,0.08);
+
+  border:
+  1px solid rgba(255,255,255,0.08);
+
+  border-radius:30px;
+
+  padding:40px 30px;
+
+  transition:0.4s ease;
+
+  backdrop-filter:blur(10px);
+}
+
+.conferenceCard:hover{
+
+  transform:translateY(-10px);
+
+  background:
+  rgba(255,255,255,0.12);
+}
+
+.conferenceIcon{
+
+  width:80px;
+  height:80px;
+
+  border-radius:22px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #ffd166,
+    #ffb703
+  );
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  font-size:34px;
+
+  margin-bottom:25px;
+}
+
+.conferenceCard h2{
+
+  font-size:28px;
+
+  margin-bottom:18px;
+}
+
+.conferenceCard p{
+
+  color:#dbeafe;
+
+  line-height:1.9;
+
+  font-size:15px;
+}
+
+/* =========================
+   BOTTOM SECTION
+========================= */
+
+.conferenceBottom{
+
+  display:grid;
+
+  grid-template-columns:1fr 1fr;
+
+  gap:60px;
+
+  align-items:center;
+}
+
+/* IMAGE */
+
+.conferenceImage img{
+
+  width:100%;
+
+  border-radius:35px;
+
+  box-shadow:
+  0 20px 45px rgba(0,0,0,0.35);
+}
+
+/* INFO */
+
+.conferenceInfo h2{
+
+  font-size:46px;
+
+  margin-bottom:30px;
+
+  line-height:1.3;
+}
+
+.conferenceInfo ul{
+
+  list-style:none;
+
+  margin-bottom:35px;
+}
+
+.conferenceInfo ul li{
+
+  margin-bottom:18px;
+
+  color:#dbeafe;
+
+  font-size:17px;
+}
+
+.conferenceInfo button{
+
+  padding:16px 38px;
+
+  border:none;
+
+  border-radius:50px;
+
+  background:
+  linear-gradient(
+    135deg,
+    #ffd166,
+    #ffb703
+  );
+
+  color:#081f45;
+
+  font-size:15px;
+  font-weight:700;
+
+  cursor:pointer;
+
+  transition:0.4s;
+}
+
+.conferenceInfo button:hover{
+
+  transform:translateY(-5px);
+
+  box-shadow:
+  0 14px 28px rgba(255,183,3,0.28);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media(max-width:992px){
+
+  .conferenceBottom{
+
+    grid-template-columns:1fr;
+  }
+
+}
+
+@media(max-width:768px){
+
+  .conferencePage{
+    padding:90px 20px;
+  }
+
+  .conferenceHeader h1{
+    font-size:40px;
+  }
+
+  .conferenceInfo h2{
+    font-size:34px;
+  }
+
+}
