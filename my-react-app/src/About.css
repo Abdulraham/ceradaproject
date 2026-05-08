@@ -271,3 +271,25 @@
   }
 
 }
+
+
+
+
+
+
+.menu li{
+  list-style:none;
+  cursor:pointer;
+  color:white;
+  margin:0 15px;
+}
+
+.footerLinks span{
+  margin:0 10px;
+  cursor:pointer;
+  color:white;
+}
+
+.footerLinks span:hover{
+  color:#00d9ff;
+}
