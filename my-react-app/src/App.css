@@ -981,7 +981,7 @@ body{
   color: #555;
   line-height: 1.8;
   font-size: 17px;
-} */
+}
  /* =========================
    WHY JOIN SECTION
 ========================= */
@@ -1338,9 +1338,9 @@ body{
     #0b3d91,
     #2563eb
   );
-
+/* 
   -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+  -webkit-text-fill-color:transparent; */
 
 }
 
