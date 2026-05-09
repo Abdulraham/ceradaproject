@@ -1123,9 +1123,9 @@ function Ceradaproject({ setPage }) {
     <div className="app">
 
       {/* TOP BAR */}
-      <marquee className="topbar">
+      <div className="topbar">
         HYBRID EVENT - Participate in Bangkok, Thailand or Virtually from your Home or Office
-      </marquee>
+      </div>
 
       {/* NAVBAR */}
       <nav className="navbar">
